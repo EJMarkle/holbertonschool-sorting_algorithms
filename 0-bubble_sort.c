@@ -5,9 +5,9 @@
  * @size: number of elements in array
  */
 
-void bubble_sort(int *array, size_t size);
+void bubble_sort(int *array, size_t size)
 {
-	soize_t i, j;
+	size_t i, j;
 	int temp;
 	int swapped;
 
@@ -22,7 +22,7 @@ void bubble_sort(int *array, size_t size);
 			if (array[j] > array[j + 1])
 			{
 				temp = array[j];
-				array[j] = array[j + 1]
+				array[j] = array[j + 1];
 				array[j + 1] = temp;
 				swapped = 1;
 
